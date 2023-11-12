@@ -1,0 +1,213 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+.header {
+    background-color: #1F2937;
+    padding: 30px 80px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 18px;
+  }
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+  }  
+
+
+.image {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 30px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+  }
+
+.section1 {
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+    margin-block-end: 0;
+    line-height: 1.1;
+    padding-bottom: 10px;
+}
+
+.headertext {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.container1 {
+    width: 450px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+}
+
+.empty-box1 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+.empty-box2 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+.empty-box3 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+.empty-box4 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+
+}
+
+.container4,
+.container5,
+.container6,
+.container7 {
+  flex: 1; /* Distribute available space equally among the child containers */
+  max-width: 100px;
+  text-align: center;
+}
+
+.button1 {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 5px 30px;
+    display: inline-block;
+    border: none; /* Remove the button border */
+    border-radius: 10px; /* Adjust the border-radius to control the roundness of the corners */
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px; /* Adjust the font size as needed */
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 150px;
+}
+
+.quote {
+    text-align: justify;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic; /* Italicize the text */
+    font-weight: lighter; /* Make the text lighter */
+}
+
+.signature {
+    align-self: flex-end;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.section4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.section6 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #e5e7eb;
+}
+
+.section7 {
+    display: flex;
+    padding: 20px;
+    border-radius: 10px; /* Adjust the border-radius to control the roundness of the corners */
+    background-color: #3882f6;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.button2 {
+    border: 2px solid white;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 10px 50px;
+    border-radius: 10px; /* Adjust the border-radius to control the roundness of the corners */
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px; /* Adjust the font size as needed */
+    cursor: pointer;
+}
+
+
+h3, p {
+    margin: 0;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 10px;
+}
